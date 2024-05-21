@@ -1,0 +1,26 @@
+
+#sub_wrap{
+    width:1800px;
+    background-color: rgba(29, 243, 207, 0.336);  
+    margin: 0px; padding:0px;  
+}    
+#line{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    width: 1800px;
+    height: 20px;
+}   
+.about{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 1800px;
+
+}
+#name {
+    padding-top: 50px;
+}
+#name > h1 {
+    text-align: center;
+}

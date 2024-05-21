@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브02</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/ui.js"></script>
+    <style>
+    body{
+        /*background-color: rgba(29, 243, 207, 0.336);*/     
+    } 
+    #sub_wrap{
+        width:1800px;
+        height: 954px;
+        background-color: rgba(29, 243, 207, 0.336);  
+        margin: 0px; padding:0px;  
+    }       
+    #line{
+        text-align: center;
+        background-color: white;
+        padding: 50px;
+        width: 1800px;
+        height: 20px;
+    }   
+    .about{
+        padding-top: 100px;
+        display: block;
+        justify-content: space-around;
+        height: 700px;
+        border: 1px black solid;
+        margin-left: 200px;
+        padding: 100px;
+    }
+   
+    </style>
+</head>
+<body>
+    <div id="sub_wrap">
+        <ul id="menu">
+            <li class="m"><a href="index.html">INTRO</a>
+                <ul class="sub_menu">
+                    <li><a href="sub_01.html">ABOUT</a></li>
+                </ul>
+                
+            </li>
+            <li class="m"><a href="index.html#second">CONSTRUCTION</a>
+                <ul class="sub_menu">
+                    <li><a href="#">IN KOREA</a></li>
+                    <li><a href="#">IN CANADA</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#third">RENOVATION</a>
+                <ul class="sub_menu">
+                    <li><a href="#">IN HOUSE</a></li>
+                    <li><a href="#">OUT HOUSE</a></li>
+                    <li><a href="#">COMMERCIAL</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#fourth">WORKPROCESS</a>
+                <ul class="sub_menu">
+                    <li><a href="#">WORKORDER</a></li>
+                    <li><a href="#">ESTIMATE</a></li>
+                    <li><a href="#">A/S APPLY</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div id="line"><h1>ESTIMATE</h1></div>
+        
+        <div class="about">
+            <form method="post" action="">
+                <span>이름 Name:</span><input type="name"><br><br> 
+                전화번호 Cell phone:<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="###-###-####" required><br><br>
+                이메일 E-mail:<input type="email"><br><br>
+                주소 Adress:<input type="adress"><br><br>
+                건물유형 Type:<input type="checkbox"><br><br>
+                사이즈 Sq ft:<input type="radio"><br><br>
+                문의 내용 Content:<br>
+                <textarea cols="100"rows="10"></textarea><br><br>
+                <input type="file">사진첨부 Photo<br><br>
+                <input type="checkbox">개인정보수집 및 이용에 동의합니다.<br><br>
+                
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">
+            </form>
+            
+        
+         
+        
+        </div>
+        
+        <footer>
+            <span>COPYRIGHT ⓒ 2024 SHIN GILSOO RIGHTS RESERVED </span>
+            <img id="logo" src="images/logo-1.png" alt="logo">
+        </footer>
+    </div>
+    
+</body>
+</html>
