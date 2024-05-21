@@ -1,0 +1,196 @@
+@charset "UTF-8";
+html{height: 100%;}
+
+body{height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 28, 34);}
+
+#wrap{position: relative;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transition: 2s;}
+
+.content{width: 100%;
+        height: 100%;
+        color: white;
+        font-size: 18px;}
+
+.size{width: 1280px;
+        margin: 30px auto;}
+
+a{color: white;
+text-decoration: none;}
+
+/* 메인 */
+#port{text-align: center;
+        width: 1280px;
+        margin: auto;}
+
+#port #name{display:block;
+            position: relative;
+            top: 230px;
+            left: 280px;}
+            
+#port #port_f{margin-top: 250px;}
+
+#port #wd{display: block;
+        width: 330px;
+        position: relative;
+        top: 20px;
+        left: 650px;}
+
+        
+/* about */
+#about{margin-top: 100px;
+        margin-left: 200px;
+        display: inline-block;}
+        
+#size01{width: 1280px;
+        margin: 90px auto;}
+
+#aboutme{margin-left: -80px;}
+        
+#profile{margin-top: -570px;
+        margin-left: 700px;}
+
+#profile table{display: flex;}
+
+#profile td{padding-left: 150px;}
+
+#profile .text{padding-left: 100px;}
+
+#profile #icon_m{position: relative;
+                top: -57px;
+                left: 400px;}
+#profile #icon_i{position: relative;
+                top: -28px;
+                left: 367px;}
+
+
+#certificat{margin-top: 0px;
+                margin-left: 700px;}
+
+#certificat p:nth-of-type(2){margin-top: -15px;}
+
+.text_cf{margin-top: -20px;
+        margin-left: 105px;}
+
+
+#education{margin-top: -125px;
+        margin-left: 1000px;}
+
+#education p{margin-left: 105px;
+                margin-top: 0px;
+                width: 350px;}
+
+#skill{margin-top: 0px;
+        margin-left: 705px;}
+
+#sk6{width: 140px;
+        margin-top: 5px;
+        margin-left: 100px;}
+#lo{margin-top: -195px;
+        margin-left: 200px;}
+
+#sk_icon{width: 50px;
+        margin-top: -195px;
+        margin-left: 55px;}
+
+#sk_icon img{padding-top: 5px;}
+
+
+/* web */
+.web{display: flex;
+        justify-content: center;
+        margin-top: 150px;}
+
+#web_img{margin-left: 150px;}
+#web_text{width: 290px;}
+
+#web_text span{font-size: 14px;}
+
+#box{display: flex;}
+
+#box p a{border: 1px white solid;
+        border-radius: 7px;
+        font-weight: bold;
+        padding: 5px 12px;
+        margin-right: 10px;}
+
+#box a:hover{background-color: pink;
+                border-radius: 7px;
+                font-weight: bold;
+                color: white;
+                padding: 5px 12px;}
+
+.triangle01{width: 0px;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 40px 20px 0;
+                border-color: transparent rgb(133, 255, 255) transparent transparent;
+                margin-top: 200px;
+                margin-right: 70px;}
+
+.triangle02{width: 0px;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 0 20px 40px;
+                border-color: transparent transparent transparent rgb(133, 255, 255);
+                margin-top: 200px;
+                margin-left: 70px;}
+
+.menu{display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-left: -30px;}
+
+.menu li{font-size: 100px;
+        margin: 0 10px;}
+
+/* design */
+
+/*footer*/
+#thank{display: flex;
+        justify-content: center;
+        margin-top: 90px;}
+
+#star01{position: relative;
+        top: 170px;}
+
+#star02{position: relative;
+        top: 70px;
+        left: 1200px;}
+
+#contack_ic{display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 120px;
+        }
+
+.footer{position: relative;
+        top: -11px;
+        left: 10px;}
+
+#contack_ic img{margin-left: 40px;
+                margin-top: 5px;}
+
+/*#box p a{border: 1px white solid;
+        border-radius: 7px;
+        font-weight: bold;
+        padding: 5px 12px;
+        margin-right: 10px;}
+
+#box a:hover{background-color: pink;
+                border-radius: 7px;
+                font-weight: bold;
+                color: white;
+                padding: 5px 12px;}*/
+
+footer{border-top: 1px rgba(228, 228, 228, 0.651) solid;
+        margin-top: 200px;
+        font-size: 13px;
+        color: rgba(220, 220, 220, 0.486);
+        text-align: center;}
