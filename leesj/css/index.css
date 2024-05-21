@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*Page 1*/
+    /*헤더*/
+    #logo {
+        display: block;
+        width: auto;
+    }
+    #logo > img {
+        height: 100%;
+    }
+    
+
+    /*콘텐츠*/
+        .main_banner {
+            background: url(../img/sherlockholmes/sherlockholmes_museum_01.jpg) no-repeat center / cover;
+        }
+
+/*Page 2*/
+    /*타이틀*/
+        .sub_header {
+            max-width: 1320px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+    /*콘텐츠*/
+        #video_container {
+            position: relative;
+            overflow: hidden;
+        }
+        #video_bg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            width: 100%;
+        }
+        .sub_banner {
+            background: url(../img/sherlockholmes/sherlockholmes_museum_02.jpg) no-repeat center / cover;
+        }
+        #mini_map {
+            width: 301px;
+            height: 301px;
+            padding: 15px;
+            background-color: #212925;
+        }
+        #map_title {
+            margin: 5px 0 25px 0;
+        }
+        #mini_map > ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 60%;
+            position: relative;
+            top: 20px;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            width: fit-content;
+            height: 100%;
+        }
+        .info > div:first-child {
+            margin-top: 26px;
+            margin-right: 50px;
+        }
+        .info > div:last-child {
+            margin-top: 20px;
+        }
+/*Page 3*/
+    /*콘텐츠*/
+        article {
+            max-width: 1320px;
+            height: fit-content;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        #victorian {
+            display: flex;
+            justify-content: space-between;
+        }
+        #box {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 75px;
+            background-color: #212925;
+        }
+        #box > p {
+            width: fit-content;
+        }
+        #box > div {
+            width: fit-content;
+        }
+
+@media (min-width: 1024px) {
+        
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+@media (max-width: 767px) {
+            
+}
