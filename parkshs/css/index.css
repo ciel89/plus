@@ -1,0 +1,201 @@
+@charset "utf-8";
+html{height: 100%;}
+
+body{width: 1920px;
+     height: 100%;
+     overflow: hidden;
+     padding: 0px;
+     margin: 0px;
+     background-color: #F2F2C4;}
+.content{width: 100%;
+         height: 100%;}
+/*a태그*/       
+a{text-decoration: none;
+  color: black;}
+a:hover{color: #B4AFAF;}
+a::after{color: black;}
+/*메인*/
+#wrap{position: relative;
+      top:0;
+      width: 100%; 
+      height: 100%;
+      transition: 1s;}
+
+header {text-align: center; 
+        position: relative; top: 2px; left: -35px;}
+#menu{margin-left: -20px;}
+#menu ul{list-style: none;
+         font-size: 28px;}
+
+#menu li{display: inline-block;  
+         position: relative; top:365px;
+         margin: 10px;}
+#cursor{position: relative; top: 310px; left: 380px;}
+#title p{color: #9AC1B9;
+         font-size: 72px;
+         font-family: Arial;
+         font-weight:900;
+         position: relative; top:230px; left: 5px;}
+
+#title span{color:#e2bde0; position: relative; top: 30px;}
+#text {position: relative; top: 170px;
+       font-size: 24px;}
+
+/*ABOUT ME*/
+#button1{position: relative; top: -70px; left: 430px;}
+#about_title {position: relative; top: 135px; left: 350px;}
+#about_title p:nth-of-type(1){font-size: 72px; font-weight: lighter;
+                              color: #b4afaf;}
+#about_title p:nth-of-type(2){position: relative; 
+                              color: #352f36;
+                              top:-125px; left: 40px;
+                              font-size: 40px; font-weight: bold;}
+#about_title img{position: relative; top:-130px; left: 45px;}
+
+#about_sub{position: relative; top:-480px; left: 1020px;}
+#Certificate p {margin: 8px;}
+#Certificate p:nth-of-type(1){font-size: 30px; 
+                              font-weight: bold; 
+                              color: #9ac1b9;}
+#Certificate p:nth-of-type(2){font-size: 20px;}
+#Certificate p:nth-of-type(3){font-size: 20px;}
+#Certificate p:nth-of-type(4){font-size: 20px;}
+#Certificate p:nth-of-type(5){font-size: 20px;}
+#Certificate p:nth-of-type(6){font-size: 20px;}
+
+#Education p{margin: 5px;}
+#Education p:nth-of-type(1){font-size: 30px; 
+                            font-weight: bold; 
+                            color: #9ac1b9;}
+#Education p:nth-of-type(2){font-size: 20px;}
+#Education p:nth-of-type(3){font-size: 20px;}
+
+#Keyword p{margin: 5px;}
+#Keyword p:nth-of-type(1){font-size: 30px;
+                          font-weight: bold; 
+                          color: #9ac1b9;}
+#Keyword p:nth-of-type(2){font-size: 20px;}
+
+/*PUBLISHING*/
+#button2{position: relative; left: 1455px; top: -455px}
+#publishihg_title {position: relative; top: 135px; left: 350px;}
+#publishihg_title p:nth-of-type(1){font-size: 72px; font-weight: lighter;
+                                   color: #b4afaf;}
+#publishihg_title p:nth-of-type(2){position: relative; 
+                                   color: #352f36;
+                                   top:-125px; left: 40px;
+                                   font-size: 40px; font-weight: bold;}
+#publishihg_title img{position: relative; top:-130px; left: 45px;}
+#publishihg_title span:nth-of-type(1){position: relative; top: -100px; left: -600px;}
+#publishihg_title span:nth-of-type(2){position: relative; top: -80px; left: -790px;}
+#publishihg_sub p{position: relative; top:-424px; left: 1055px;
+                  margin: 15px;}
+#publishihg_sub p:nth-of-type(1){font-size: 30px; 
+                                 font-weight: bold; 
+                                 color: #9ac1b9;}
+
+#publishihg_sub p:nth-of-type(2){font-size: 20px;}
+#publishihg_sub p:nth-of-type(3){font-size: 20px;  
+                            }
+#publishihg_sub p:nth-of-type(4){font-size: 20px;}
+#publishihg_sub p:nth-of-type(5){font-size: 20px;}
+
+#box {display: flex; position:relative;  top: -430px; left: 1055px;}
+#box p {border: 5px #9ac1b9 solid; margin: 0 14px;
+        width: 85px; padding: 15px; text-align: center;
+        border-radius: 25px;}
+#box p:hover{background-color: white;}
+
+/*DESIGN*/
+#button3{position: relative; left: 1455px; top: -670px;}
+#design_title {position: relative; top: 135px; left: 350px;}
+#design_title p:nth-of-type(1){font-size: 72px; font-weight: lighter;
+                               color: #b4afaf;}
+#design_title p:nth-of-type(2){position: relative;
+                               color: #352f36; 
+                               top:-125px; left: 40px;
+                               font-size: 40px; font-weight: bold;}
+#design_title img:nth-of-type(1){position: relative; top:-130px; left: 45px;}
+
+#character img:nth-of-type(1){position: relative; top:-460px;}
+#character img:nth-of-type(2){position: relative; top:-460px; left: 41px;}
+#character img:nth-of-type(3){position: relative; top:-460px; left: 37px;} 
+
+#character img:hover{ transform: scale(1.03);
+                      margin: 0px auto;
+                      overflow: hidden;}
+
+#design_sub img{position: relative; top:-615px; left: 1029px; cursor: pointer;}
+#design_sub p{border: 5px #9ac1b9 solid;
+              width: 180px; padding: 18px; text-align: center;
+              border-radius: 29px;
+              position: relative; top:-560px; left: 1115px;}
+#design_sub p:hover{background-color: white;}
+
+/*CONTACT*/
+#button4{position: relative; left: 1450px; top: 500px;}
+#contact_title{text-align: center; 
+               position: relative; top: 65px; left: -35px;}
+/*#menu2{margin-left: -20px;}
+#menu2 ul{list-style: none;
+         font-size: 28px;}
+#menu2 ul a{color: black;}
+#menu2 li{display: inline-block;  
+         position: relative; top:365px;
+         margin: 10px;}*/
+#contact_sub img{position: relative; top: 405px; left: 770px;}
+#contact_t {position: relative; top: 430px; left: -30px; text-align: center;}
+#contact_t p{margin: 0px; display: inline-block;}
+#contact_e{margin-top: -20px;}
+#contact_s{margin-top: 20px;}
+#contact_t p:nth-of-type(1){font-size: 22px;
+                            font-weight: bold; 
+                            color: #9ac1b9;}
+#contact_t p:nth-of-type(2){font-size: 22px;}
+#contact_t p:nth-of-type(3){font-size: 22px;
+                            font-weight: bold; 
+                            color: #9ac1b9;}
+#contact_t p:nth-of-type(4){font-size: 22px;}
+#footer{font-size: 24px; letter-spacing :0.8px; 
+        text-align: center;
+        position: relative; top: 905px; left: -25px;}
+/*포트폴리오 배경*/
+.content{width: 100%; height: 100%;}
+.content:nth-of-type(1){/*background-color: #e7ffc5;*/
+                          background-image: url(../images/home2.png);
+                          background-repeat: no-repeat; margin-top: -28px;}
+.content:nth-of-type(2){background-image: url(../images/sub_image.jpg); margin-top: -72px;}
+.content:nth-of-type(3){background-image: url(../images/sub_image.jpg); margin-top: -72px;}
+.content:nth-of-type(4){background-image: url(../images/sub_image.jpg); margin-top: -72px;}
+.content:nth-of-type(5){background-image: url(../images/CONTACT3.png); 
+                        background-repeat: no-repeat; margin-top: -25px;}
+
+/*모달창*/
+.modal {display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);}
+.modal-content {background-color: #fefefe;
+                margin: 60px auto;
+                padding: 10px; /* 패딩 조정 */
+                border: 1px solid #888;
+                width: 880px; /* 너비 조정 */
+                height: 820px;
+                max-width: 880px;}
+.modal-content img {margin: 660px auto; margin-left: -1015px;}
+/* 닫기 버튼 스타일 */
+.close {color: #aaa;
+float: right; margin-right:2%; margin-top: -10px;
+font-size: 35px;
+font-weight: bold;}
+
+.close:hover,
+.close:focus {color: black;
+              text-decoration: none;
+              cursor: pointer;}
+
