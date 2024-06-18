@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/ui.js"></script>
+    <style>
+        .icon > h2 > img{
+            margin-left: 300px;
+        }
+        /*.mov_02 > img{
+            margin-top: 100px;
+            margin-left: 50px;
+            border-radius: 30px;
+            box-shadow: 5px 5px darkgrey;
+        }
+        .mov_02 > h3{
+            margin-left: 400px;
+        }*/
+        
+    </style>
+   
+
+</head>
+<body>
+    <div class="wrap">
+        
+            <ul id="menu">
+                <li class="m"><a href="index.html">INTRO</a>
+                    <ul class="sub_menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                    
+                </li>
+                <li class="m"><a href="index.html#second">CONSTRUCTION</a>
+                    <ul class="sub_menu">
+                        <li><a href="index.html#second">IN KOREA</a></li>
+                        <li><a href="incanada.html">IN CANADA</a></li>
+                    </ul>
+                </li>
+                <li class="m"><a href="index.html#third">RENOVATION</a>
+                    <ul class="sub_menu">
+                        <li><a href="index.html#third">IN HOUSE</a></li>
+                        <li><a href="outhouse.html">OUT HOUSE</a></li>
+                        <li><a href="commercial.html">COMMERCIAL</a></li>
+                    </ul>
+                </li>
+                <li class="m"><a href="index.html#fourth">WORKPROCESS</a>
+                    <ul class="sub_menu">
+                        <li><a href="index.html#fourth">WORKORDER</a></li>
+                        <li><a href="estimate.html">ESTIMATE</a></li>
+                        <li><a href="apply.html">A/S APPLY</a></li>
+                    </ul>
+                </li>
+            </ul>
+        
+
+        <div class="container" id="second">
+                <h1>CONSTRUCTION</h1>
+               
+
+            <div class="icon">
+                <h2><img src="images/canada.PNG" alt="" width="70px"height="50px"> <em>IN CANADA</em></h2>
+            </div> 
+            <h3><strong>2012 CANADA LIUNA Local 183 Home Union
+                    Frameming work</strong></h3>
+
+            <div id="korea">
+                
+                    
+                <div  class="image-wrapper">
+                    <img src="images/aurora_04.jpg" alt="한국" width="400px" height="450px">
+                    <video class="hover-video" muted>
+                        <source src="images/canada_01.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                
+                <div class="image-wrapper">
+                    <img src="images/brampton_01_2013.jpg" alt="한국" width="400px" height="450px">
+                    <video class="hover-video" muted>
+                        <source src="images/canada_02.mp4" type="video/mp4">
+                    </video>
+                </div>
+            
+        
+           
+                <div class="image-wrapper">
+                    <img src="images/caledon_01_2013.jpg" alt="한국" width="400px" height="450px">
+                    <video class="hover-video" muted>
+                        <source src="images/canada_03.mp4" type="video/mp4">
+                    </video>
+                </div>
+                      
+                <div class="image-wrapper">
+                    <img src="images/mayfield&kennedy_01_2013.jpg" alt="한국" width="400px" height="450px">
+                    <video class="hover-video" muted>
+                        <source src="images/canada_04.mp4" type="video/mp4">
+                    </video>
+                </div>
+                      
+           
+       
+                              
+                   
+               
+                
+                
+
+            </div>
+        </div>
+    
+        <div id="main"> 
+               
+                <footer>
+                        <span>COPYRIGHT ⓒ 2024 SHIN GILSOO RIGHTS RESERVED </span>
+                        <img id="logo" src="images/logo-02.png" alt="logo" width="100px">
+                </footer>
+        </div >
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const imageWrappers = document.querySelectorAll('.image-wrapper');
+    
+        imageWrappers.forEach(wrapper => {
+            const video = wrapper.querySelector('.hover-video');
+    
+            wrapper.addEventListener('mouseover', function () {
+                video.style.display = 'block';
+                video.play();
+            });
+    
+            wrapper.addEventListener('mouseout', function () {
+                video.style.display = 'none';
+                video.pause();
+                video.currentTime = 0;
+            });
+        });
+    });
+    
+    </script>
+    
+        
+</body>
+</html>
