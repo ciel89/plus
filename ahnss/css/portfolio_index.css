@@ -1,5 +1,67 @@
 @charset "utf-8";
 
+
+/* 기본 색상 변수에 담기 */
+/* html {
+    --color-texta: #1d1d1d;
+    --color-textb: #fff;
+} */
+/* 시스템 커서 안 보이게 숨기기 */
+/* body {
+    cursor: none;
+} */
+/* 커스텀 커서 스타일 정의해주기 */
+/* .cursor {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    backdrop-filter: sepia(20%);
+    background-size: cover;
+}
+
+.cursor-grow {
+    transform: scale(2);
+    background-color: var(--color-texta);
+} */
+
+/* 점선이 들어갈 ::after(pseudo)요소 만들고 크기값 설정해주기*/
+/* .gnb li a:hover::after {
+    width: calc(100% - 2rem);
+    height: 3px;
+    background-size: contain; /* 배경 이미지(svg)가 알맞게 들어가도록*/
+  
+/* hover된 링크의 글자 색상 정의(하얀색)*/
+/* .hovered-link 선택자명은 추후 JS로 추가할 예정!*/
+  /* .hovered-link {
+      color: var(--color-textb) !important;
+  } */
+/* .gnb li a:hover::after의 svg에 배경이미지 지정!*/
+  /* .hovered-link::after {
+      background-image: url("../img/white_dot.svg");
+  } */
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 213, 0);
+}
+
+
 html{
     height: 100%;
     padding: 0px;
@@ -262,69 +324,6 @@ b{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#works1{
-    width: 280px;
-    height: 450px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works2{
-    width: 280px;
-    height: 450px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works3{
-    width: 280px;
-    height: 450px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works4{
-    width: 280px;
-    height: 450px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works5{
-    width: 280px;
-    height: 450px;
-    background-color: rgb(106,106,106);
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works6{
-    width: 280px;
-    height: 450px;
-    background-color: rgb(106,106,106);
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works7{
-    width: 280px;
-    height: 450px;
-    background-color: rgb(106,106,106);
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
-
-#works8{
-    width: 280px;
-    height: 450px;
-    background-color: rgb(106,106,106);
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(31,31,31,0.7);
-}
 
 /* 네 번째 페이지 구성 */
 

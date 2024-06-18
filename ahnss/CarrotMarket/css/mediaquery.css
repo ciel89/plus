@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  header > div >p {
+    display: none;
+  }
+  header > nav{
+    display: none;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1400px) {
+  header > div{
+    display: flex;
+  }
+  header > nav{
+    display: none;
+  }
+}
+
+
+@media (min-width: 1401px) {
+  header > div {
+    display: flex;
+  }
+  header > nav{
+    display: flex;
+  }
+}
