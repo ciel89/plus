@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+  header{
+    width: 100%;
+  }
+  
+  header >div{
+    width: 90%;
+  }
+  header > div >p {
+    display: none;
+  }
+  header > nav{
+    display: none;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1400px) {
+  header{
+    width:100%;
+  }
+  header > div{
+    width:90%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 5%;
+  }
+
+  #form{
+    width:50%;
+  }
+
+  header > div{
+    font-size: 100%;
+  }
+  
+  header > nav{
+    display: none;
+  }
+}
+
+
+@media (min-width: 1401px) {
+  header > div {
+    display: flex;
+  }
+  header > nav{
+    display: flex;
+  }
+}

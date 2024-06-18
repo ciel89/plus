@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+}
+
+
+/* .move{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* 중고거래 상품 사이즈 규격 */
+
+.list{
+    width: 1200px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 200px;
+}
+#ad{
+    padding: 0px;
+}
+
+#second{
+    padding-top: 0px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+#new{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new > img{
+    width: 200px;
+    height: 200px;
+}
+  
+#info{
+    display: flex;
+}
+
+.info{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.info > h1{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.info > h3{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.info > p{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.info > table{
+    text-align: center;
+    width: 500px;
+    border: 1px rgb(184, 184, 184) solid;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+#button{
+    display: flex;
+    margin-top: 120px;
+}
+
+#button > a{
+    margin-right: 20px;
+    padding: 0px;
+}
+
+#button > a > p:hover{
+    background-color: rgb(232, 100, 12);
+    box-shadow: 3px 3px 3px rgb(184, 184, 184);
+}
+
+#button > a > p{
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #ff6f0f;
+    color: white;
+    
+}
+
+  
+
+
+.item{
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.item > img{
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    border-radius: 5%;
+}
+  
+  
+.item > p{
+  text-align: left;
+}
+  
+
+  /* 상품 리스트 슬라이드 */
+  
+  /* 좌우 이동 버튼 */
+  .move{
+    position: relative;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    left: -350px;
+    top: -280px;
+  }
+  
+  
