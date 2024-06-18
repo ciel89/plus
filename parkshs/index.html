@@ -3,42 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>메인 포트폴리오</title>
+    <title>박새한실 포트폴리오</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/page.js"></script>
 </head>
 <body>
     <div id="wrap">
-        <div class="content">
-            <header>
-                <!--메뉴-->
-                <div id="menu">
-                    <ul>
-                        <li>HOME</li>
-                        <li>ABOUT</li>
-                        <li>PUBLISING</li>
-                        <li>DESIGN</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </div>
-                <div id="title">
-                    <p><span>PARK SAE HAN SIL</span><br>
-                        PORTFOLIO</p>
-                </div>
+        <div class="content" id="slide1">
+                <header>
+                    <!--메뉴-->
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#slide1">HOME</a></li>
+                            <li><a href="#slide2">ABOUT</a></li>
+                            <li><a href="#slide3">PUBLISING</a></li>
+                            <li><a href="#slide4">DESIGN</a></li>
+                            <li><a href="#slide5">CONTACT</a></li>
+                        </ul>
+                        <img id="cursor" src="images/cursor.png" alt="마우스 커서" width="40px;">
+                    </div>
+                    <div id="title">
+                        <p><span>Visual Harmony</span><br>
+                            Web & Graphic</p>
+                    </div>
+                   
+                    <p id="text">신입 그래픽 디자이너 박새한실의<br>
+                    그래픽 디자이너를 꿈꾸며 준비한 노력의 결과물</p>  
+                </header>
                
-                <p id="text">안녕하세요. 신입 그래픽 디자이너 박새한실입니다.<br>
-                이 포트폴리오에서는 그래픽 디자이너를 꿈꾸며 준비한<br>
-                저의 노력의 결과물인 작업물들을 보실 수 있습니다. </p>  
-            </header>
-           
         </div>
         <!--01-->
-        <div class="content">
+        <div class="content" id="slide2">
             <div id="about_title">
                 <p>01</p>
                 <p>ABOUT ME</p>
                 <img src="images/profile.png" alt="">
             </div>
-             
+                 
             <div id="about_sub">
                 <div id="Certificate">
                     <p>Certificate</p>
@@ -48,37 +49,47 @@
                     <p>Office Power.Point 2016 : 2023.10.04</p>
                     <p>제28회 대한민국텍스타일대전 '입선' : 2017.07.26</p>
                 </div>
-
                 <div id="Education">
                     <p>Education</p>
-                    <p>-2024 플러스컴퓨터학원 '멀티미디어 콘텐츠 제작' 과정 수료</p>
-                    <p>-2018 용인예술과학대학교 '리빙디자인과' 졸업</p>
+                    <p>-2024 플러스컴퓨터학원 '멀티미디어 콘텐츠 제작'</p>
+                    <p>-2018 용인예술과학대학교 '리빙디자인과'</p>
                 </div>
-
+                
                 <div id="Keyword">
                     <p>Keyword</p>
-                    <p>#신입디자이너 #그래픽디자인 #웹디자인  #영상편집 #코딩 #성장형<br> 
+                    <p>#신입디자이너 #그래픽디자인 #웹디자인<br> 
+                        #영상편집 #코딩 #성장형<br> 
                         #취미 #풍경사진촬영 #미디어감상</p>
                 </div>
+                <a href="#slide1"><img id="button1" src="images/footprint_click.png" alt="고양이 발자국"></a>
             </div>
         </div>
         <!--02-->
-        <div class="content">
+        <div class="content" id="slide3">
             <div id="publishihg_title">
                 <p>02</p>
                 <p>PUBLISHING</p>
-            <img src="images/homepage.jpg" alt="코딩홈페이지작업물">
+            <img src="images/homepage.jpg" alt="코딩홈페이지작업물" width="640px">
+            <span>*서브페이지 | 메뉴 - New</span> 
+            <span>*색상 구성 | Yellow, Brown, Gray</span> 
             </div>
             <div id="publishihg_sub">
                 <p>맘스터치</p>
-                <p>제작<br><span>메인페이지</span></p>
-                <p>제작기간<br><span>몇개월</span></p>
-                <p>기여도<br><span>개인 작업 100%</span></p>
-                <p>사용툴<br><span>HTML/CSS/일러스트/포토샵</span></p>
+                <p>제작<br> 메인페이지, 서브페이지</p>
+                <p>기간<br>   1개월</p>
+                <p>사용툴<br>  HTML, CSS, 일러스트, 포토샵</p>
+                <p>프로젝트 소개<br>
+                   사용자의 편의성을 고려하여 한눈에 이미지가 깔끔하게 들어오고 <br>
+                   간편한 메뉴 구성과 레이아웃 디자인으로 변경</p>
             </div>
+            <div id="box">
+                <a href="https://momstouch.co.kr/home.php" target="_blank"><p>Before</p></a>
+                <a href="맘스터치//index.html" target="_blank"><p>Re Design</p></a>
+            </div>
+            <a href="#slide1"><img id="button2" src="images/footprint_click.png" alt="고양이 발자국"></a>
         </div>
         <!--03-->
-        <div class="content">
+        <div class="content" id="slide4">
             <div id="design_title">
                 <p>03</p>
                 <p>DESIGN</p>
@@ -98,15 +109,23 @@
                       <img src="images/BusinessCards2.png" width="850px">
                      </div>
                 </div>  
-                <p><a href="sub.html" target="_blank">작품 더보기</a></p>
+                <a href="sub.html" target="_blank"><p>작품 더보기</p></a>
             </div>
+            <a href="#slide1"><img id="button3" src="images/footprint_click.png" alt="고양이 발자국"></a>
         </div>
         <!--04-->
-        <div class="content">
+        <div class="content" id="slide5">
             <div id="contact_title">
-                <p>04</p>
-                <p>CONTACT</p>
-                <img src="images/talk.png" alt="카카오톡" width="450px">
+                <!--메뉴-->
+                <!--<div id="menu2">
+                    <ul>
+                        <li><a href="#slide1">HOME</a></li>
+                        <li><a href="#slide2">ABOUT</a></li>
+                        <li><a href="#slide3">PUBLISING</a></li>
+                        <li><a href="#slide4">DESIGN</a></li>
+                        <li><a href="#slide5">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
             <div id="contact_sub">
                 <img src="images/parksaehansil.png" alt="박새한실" width= "310px">
@@ -118,13 +137,12 @@
                     <div id="contact_s">
                         <p>인스타그램</p>
                         <p>@saehansil</p>
-                    </div>
+                    </div>-->
                 </div>
                 <p id="footer">ⓒ2024 PARK SAE HAN SIL All Rights Reserved.</p>
+                <a href="#slide1"><img id="button4" src="images/footprint_click.png" alt="고양이 발자국"></a>
             </div>
-        </div>
+        </div>       
     </div>
-
-    <script src="js/page.js"></script>
 </body>
 </html>

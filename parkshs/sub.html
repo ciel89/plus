@@ -5,16 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>박새한실 작품</title>
     <link rel="stylesheet" href="css/sub.css">
+    <script src="js/page.js"></script>
 </head>
 <body>
-    <header>
-        <img src="images/pshs.png" width="300px"><span>의 작품보기</span>
-    </header>
-    <aside>
-        <h2>🔹포토샵</h2>
-    </aside>
-    <section>
-        <h2>🔸영상</h2>
-    </section>
+    <div id="wrap">
+        <div class="content" id="slide1">
+            <header>
+                <img src="images/pshs.png" width="300px"><span>의 작품보기</span>
+            </header>
+            <aside>
+                <h2>🔹포토샵</h2>
+                <div id="photo">
+                    <h3>1. 색 보정</h3>
+                    <img src="images/before.jpg" alt="" width="750px">
+                    <img src="images/after.jpg" alt="" width="750">
+                </div>
+            </aside>
+        </div>
+        <div class="content" id="slide2">
+            <article>
+                <div id="photo2">
+                    <h3>2. 눈 내리는 효과</h3>
+                    <img src="images/before_snow.jpg" alt="" width="750px">
+                    <img src="images/after_snow.jpg" alt="" width="750">
+                </div>
+            </article>
+        </div>
+        <div class="content" id="slide3">
+            <section>
+                <div id="photo3">
+                    <h3>3. 마스크 효과 & 몬드리안 & 유화 효과</h3>
+                    <img src="images/potoshop2.jpg" alt="마스크 효과" height="700px">
+                    <img src="images/mondrian.jpg" alt="몬드리안" height="700px">
+                    <img src="images/oil paint.jpg" alt="유화 효과" height="700px">
+                </div>
+            </section>
+        </div>            
+        
+        <div class="content" id="slide4">
+            <section>
+                <h2>🔸영상</h2>
+            </section>
+            <main>
+                <video controls="controls">
+                    <source src="Video/Portfolio video.mp4" type="video/mp4">
+                </video>
+            </main>
+        </div>
+    </div>
+
 </body>
 </html>
