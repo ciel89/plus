@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/S APPLY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/ui.js"></script>
+    <style>
+    
+    #menu{
+        background-color: rgb(182, 193, 170); 
+        opacity: 0.7; 
+
+    }
+    #menu > .m > a{
+        font-weight: bold;
+        font-size: 23px;
+        color: black;
+        margin-right: 190px;
+    }
+    #sub_wrap{
+        width:1800px;
+        height: 954px;
+        background-color: rgb(162, 154, 120);;  
+        margin: 0px; padding:0px;  
+    }       
+    #line{
+        color: darkgray;
+        text-align: left;
+        padding-left: 20px;
+        background-color: white;
+        padding: 50px;
+        width: 1800px;
+        height: 20px;
+    }   
+    .about{
+        padding-top: 100px;
+        display: block;
+        justify-content: space-around;
+        height: 700px;
+        margin-left: 200px;
+        padding: 100px;
+    }
+    p > img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+   
+    </style>
+</head>
+<body>
+    <div id="sub_wrap">
+        <ul id="menu">
+            <li class="m"><a href="index.html">INTRO</a>
+                <ul class="sub_menu">
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+                
+            </li>
+            <li class="m"><a href="index.html#second">CONSTRUCTION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#second">IN KOREA</a></li>
+                    <li><a href="index.html#second">IN CANADA</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#third">RENOVATION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#third">IN HOUSE</a></li>
+                    <li><a href="index.html#third">OUT HOUSE</a></li>
+                    <li><a href="commercial.html">COMMERCIAL</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#fourth">WORKPROCESS</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#fourth">WORKORDER</a></li>
+                    <li><a href="estimate.html">ESTIMATE</a></li>
+                    <li><a href="apply.html">A/S APPLY</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div id="line"><h1>A/S APPLY</h1></div>
+        
+        <div class="about">
+<form method="post" action="">
+        <p><img src="images/fix.PNG" alt="" width="50px" height="50px">
+             고객정보 및 건축정보를 입력하여 주시면 <ins>최대한 빠르게 처리해드리겠습니다.</ins></p>
+                <span>이름 Name:</span><input type="name"><br><br> 
+                전화번호 Cell phone:<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="###-###-####"><br><br>
+                이메일 E-mail:<input type="email"><br><br>
+                주소 Adress:<input type="adress"><br><br>
+                건물유형 Type:<input type="checkbox">House <input type="checkbox">Sammy House 
+                       <input type="checkbox">Town House <input type="checkbox">Condo 
+                       <input type="checkbox">Studio <br><br>
+                사이즈 Sq ft:<input type="radio">~800이하 <input type="radio">800~1000 
+                       <input type="radio">1000~1500 <input type="radio">1500~2000 
+                       <input type="radio">2000~이상 <br><br>
+                문의 내용 Content:<br>
+                <textarea cols="100"rows="10"></textarea><br><br>
+                <input type="file">사진첨부 Photo<br><br>
+                <input type="checkbox">개인정보수집 및 이용에 동의합니다.<br><br>
+    
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">
+</form method="post" action="">
+            
+        
+         
+        
+        </div>
+        
+        <footer>
+            <span>COPYRIGHT ⓒ 2024 SHIN GILSOO RIGHTS RESERVED </span>
+            <img id="logo" src="images/logo-02.png" alt="logo" width="100px">
+        </footer>
+    </div>
+    
+</body>
+</html>

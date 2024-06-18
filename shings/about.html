@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/ui.js"></script>
+    <style>
+    #menu{
+        background-color: rgb(123, 123, 123); 
+        opacity: 0.7;
+    }
+    #sub_wrap{
+        width:1800px;
+        height: 954px;
+        background-color: rgb(75, 75, 75);  
+        margin: 0px; padding:0px;  
+    }  
+    #line{
+        text-align: left;
+        background-color: white;
+        padding: 50px;
+        width: 1800px;
+        height: 20px;
+        color: darkgray;
+    }  
+    .about{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 1500px;
+        height: 700px;
+        margin-left: 150px;
+        
+    }
+    #name {
+        padding-top: 100px;
+        color: white;
+    }
+    #name > h2 > img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #name > p{
+        color: rgb(170, 169, 169);
+    }
+   
+    
+    </style>
+</head>
+<body>
+    <div id="sub_wrap">
+        <ul id="menu">
+            <li class="m"><a href="index.html">INTRO</a>
+                <ul class="sub_menu">
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+                
+            </li>
+            <li class="m"><a href="index.html#second" >CONSTRUCTION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#second">IN KOREA</a></li>
+                    <li><a href="incanada.html">IN CANADA</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#third">RENOVATION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#third">IN HOUSE</a></li>
+                    <li><a href="outhouse.html">OUT HOUSE</a></li>
+                    <li><a href="commercial.html">COMMERCIAL</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#fourth">WORKPROCESS</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#fourth">WORKORDER</a></li>
+                    <li><a href="estimate.html">ESTIMATE</a></li>
+                    <li><a href="apply.html">A/S APPLY</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div id="line"><h1>MY STORY</h1></div>
+        
+        <div class="about">
+            <img src="images/character01.png" 
+                        alt="캐릭터" width="450px">
+        
+            
+        
+            <div id="name">
+                <h2><img src="images/carpenter.PNG" alt="" width="50px" height="50px">
+                    PROFILE</h2>
+                <P>NAME : <strong>김 종빈 JOSEPH KIM</strong></P>
+                <p>CELL : <strong>1) 647-382-1816</strong></p>
+                <p>MAIL : <strong>jonbin1816@gmail.com</strong></p>
+                <br>
+                <h2><img src="images/fix.PNG" alt="" width="50px" height="50px">
+                    CAREER</h2>
+                <p>2007 <strong>Fieldhouse 입사</strong><br>
+                    캐나다식 목조주택 전문
+                </p>
+                <p>2009 <strong>대목수 팀장</strong><br>
+                    골조 
+                </p>
+                <p>2012 <strong>CANADA LIUNA Local 183</strong> Home Union<br>
+                    Frameming work
+                </p>
+                <p>2018 <strong>Carpenter/ House Renovation </strong><br>
+                    Freelancer
+                </p>
+            </div>
+
+             
+        
+        
+        </div>
+
+        <footer>
+            <span>COPYRIGHT ⓒ 2024 SHIN GILSOO RIGHTS RESERVED </span>
+            <img id="logo" src="images/logo-02.png" alt="logo" width="100px">
+        </footer>
+    </div>
+    
+</body>
+</html>

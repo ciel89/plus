@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMERCIAL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/ui.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="js/swiper.min.css">
+    <style>
+    body{
+        /*background-color: rgba(29, 243, 207, 0.336);*/     
+    } 
+    #menu{
+        background-color: rgb(176, 171, 145);
+        opacity: 0.7;
+    } 
+    #sub_wrap{
+        width:1800px;
+        height: 954px;
+        background-color:rgb(124, 113, 66);
+        margin: 0px; padding:0px;  
+    } 
+         
+    #line{
+        text-align: left;
+        padding-left: 20px;
+        background-color: white;
+        padding: 50px;
+        width: 1800px;
+        height: 20px;
+        color: darkgray;
+    } 
+    h3{
+        text-align: center;
+        color: darkgrey;
+        margin-top: 50px;
+    }  
+    
+    /* swiper */
+    .visual .swiper-container{
+            max-width: 1800px;
+            margin: 0 auto;            
+            position: relative;
+            border: 1px black solid;
+            /*margin-left: 120px;*/
+            margin-top: 50px;
+            justify-content: space-around;
+            width: 1798px;
+            height: 600px;
+            /*box-shadow: 5px 5px rgb(120, 120, 120);*/
+        }
+    .visual img{
+            vertical-align: top;
+            width: 100%;
+        }
+        /* swiper 하단 버튼 디자인  */
+    .visual .swiper-pagination{
+            position: absolute;
+            left: 0;
+            bottom: 3%;
+            z-index: 100;            
+            text-align: center;
+        }
+    .visual .swiper-pagination .swiper-pagination-bullet{
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            opacity: 1;
+        }
+    .visual .swiper-pagination .swiper-pagination-bullet-active{
+            background: #ff6600;
+        }
+        /* swiper left, right 버튼 디자인  */
+    .visual .arrow{
+            position: absolute;
+            top: 50%;
+            font-size: 25px;
+            background: #000;
+            color: #fff;
+            z-index: 100;
+            line-height: 1;
+            margin-top: -20px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    .visual .next{
+            left: 10px;
+        }
+    .visual .prev{
+            right: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+    <div id="sub_wrap">
+        <ul id="menu">
+            <li class="m"><a href="index.html">INTRO</a>
+                <ul class="sub_menu">
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+                
+            </li>
+            <li class="m"><a href="index.html#second">CONSTRUCTION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#second">IN KOREA</a></li>
+                    <li><a href="incanada.html">IN CANADA</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#third">RENOVATION</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#third">IN HOUSE</a></li>
+                    <li><a href="outhouse.html">OUT HOUSE</a></li>
+                    <li><a href="commercial.html">COMMERCIAL</a></li>
+                </ul>
+            </li>
+            <li class="m"><a href="index.html#fourth">WORKPROCESS</a>
+                <ul class="sub_menu">
+                    <li><a href="index.html#fourth">WORKORDER</a></li>
+                    <li><a href="estimate.html">ESTIMATE</a></li>
+                    <li><a href="apply.html">A/S APPLY</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div id="line"><h1>COMMERCIAL</h1></div>
+
+
+        <h3>2018 <strong>Carpenter/ House Renovation </strong>
+                    Freelancer
+                </h3>
+        
+            <div class="visual">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="images/wow.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hamilton2.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hamilton5.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hamilton6.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hamilton7.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hamilton8.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hong.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hong2.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/hong3.jpg" alt=""></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="next arrow">&lt;</div>
+                    <div class="prev arrow">&gt;</div>
+                </div>
+            </div>
+        
+        
+        <footer>
+            <span>COPYRIGHT ⓒ 2024 SHIN GILSOO RIGHTS RESERVED </span>
+            <img id="logo" src="images/logo-02.png" alt="logo" width="100px">
+        </footer>
+    </div>
+
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        /* 자동실행, left, right버튼 기능 api 추가 */
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev',
+            }
+        });
+        </script>
+    
+</body>
+</html>
