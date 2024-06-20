@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+/*공통서식*/
+    body {
+        background-color: #70685d;
+        color: #222222;
+    }
+    a {
+        color: #d2c2b2;
+    }
+    a:hover {
+        color: #fee287;;
+    }
+
+/*헤더, 콘텐츠 박스 높이 변수 설정*/
+    :root {
+        --mainHeader-height-desktop: 153px;
+        --mainHeader-height-tablet: 123px;
+        --mainHeader-height-mobile: 93px;
+
+        --subHeader-height-desktop: 146px;
+        --subHeader-height-tablet: 116px;
+        --subHeader-height-mobile: 86px;
+
+        --bottomBox-height-wide: 210px;
+        --bottomBox-height-narrow: 50%;
+        --footer-height-narrow: 40%;
+    }
+    header, .main_header {
+        color: #d2c2b2;
+    }
+/*Page 1*/
+    /*헤더*/
+        .main_header {
+            background-color: #222222;
+        }
+    /*인트로 영상*/
+        #video_container {
+            position: relative;
+            overflow: hidden;
+        }
+        #video_bg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+        }
+    /*하단 박스*/
+        button {
+            border-radius: 15px;
+            padding: 15px;
+            background-color: #d2c2b2;
+            color: #222222;
+            font-weight: bold;
+            font-size: 16px;
+        }
+/*Page 2*/
+    /*헤더*/
+        .sub_header_blk {
+            background-color: #222222;
+        }
+    /*서브 배너*/
+        .sub_banner {
+            background: url(../img/sherlockholmes/museum_01.jpg) no-repeat center / cover;
+        }
+    /*하단 정보 박스*/    
+        .box_info {
+            overflow: hidden;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            background-color: #222222;
+        }
+        .info > div > img {
+            width: 100%;
+            max-width: 60px;
+        }
+        .info > div > h3, p {
+            color: #d2c2b2;
+        }
+/*Page 3*/
+    /*갤러리*/
+        article {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        #victorian {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    /*SNS 박스*/    
+        #box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222222;
+        }
+        #box > p {
+            width: fit-content;
+        }
+
+
+
+@media (min-width: 1024px) {
+    /*page_2*/
+        #mini_map {
+            width: 301px;
+            height: 301px;
+        }
+        #mini_map > ul {
+            width: 100%;
+        }  
+        .info {
+            width: fit-content;
+        }
+        .info > div:first-child {
+            width: 76px;
+            margin-top: 26px;
+            margin-right: 50px;
+        }
+        .info > div:last-child {
+            margin-top: 20px;
+        }
+    /*page_3*/
+        article {
+            height: fit-content;
+        }
+        #victorian > li {
+            width: 22%;
+        }    
+        #victorian ~ img {
+            display: none;
+        }
+        #box {
+            padding: 25px 75px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /*page_2*/   
+        #mini_map {
+            width: 301px;
+            height: 301px;
+        }
+        #mini_map > ul {
+            width: 100%;
+        }  
+        .info {
+            width: fit-content;
+        }
+        .info > div:first-child {
+            width: 76px;
+            min-width: 76px;
+            margin-top: 26px;
+            margin-right: 20px;
+        }
+        .info > div:last-child {
+            margin-top: 20px;
+        }
+    /*page_3*/
+        article {
+            height: fit-content;
+        }
+        #victorian > li {
+            width: 22%;
+        }
+        #victorian ~ img {
+            display: none;
+        }
+        #box {
+            padding: 25px 50px;
+        }
+}
+
+@media (max-width: 767px) {
+    /*page_1*/
+        #top_menu {
+            background-color: #222222;
+        }
+        #top_menu > li {
+            border-bottom: 1px solid #d2c2b2;
+        }
+        #text_banner_container {
+            display: none;
+        }
+}
+
+@media (max-width: 767px) and (min-height: 661px) {
+    /*page_2*/
+        #mini_map {
+            width: 100%;
+            height: 100%;
+        }
+        #mini_map > ul {
+            width: 100%;
+        }  
+        #mini_map > ul > li {
+            font-size: 0.8rem;
+        }
+        .box_info > .container{
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+        }
+        .info {
+            width: 60%;
+        }
+        .info:nth-of-type(1) {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #70685d;
+        }
+        .info:nth-of-type(2) {
+            padding: 5px 0;
+            border-bottom: 1px solid #70685d;
+        }
+        .info:nth-of-type(3) {
+            padding: 5px 0;
+        }
+        .info > div:first-child {
+            width: 20%;
+            max-width: 50px;
+        }
+        .info > div:last-child {
+            width: fit-content;
+            min-width: 115px;
+        }
+    /*page_3*/
+        .last_page > div {
+            height: calc(100% - var(--footer-height-narrow));
+        }
+        .last_page > div > article {
+            height: fit-content;
+            overflow: hidden;
+        }
+        #victorian {
+            display: none;
+        }
+        #victorian ~ img {
+            display: block;
+            height: 100%;
+        }
+        #box {
+            padding: 15px 30px;
+        }      
+}
+
+@media (min-width: 1024px) and (max-height: 660px) {
+    /*page_2*/
+        #mini_map {
+            width: 301px;
+            height: 100%;
+        }
+        .box_info {
+            height: calc(100% - var(--subHeader-height-desktop));
+            max-height: var(--bottomBox-height-wide);
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (max-height: 660px) {
+    /*page_2*/
+        #mini_map {
+            width: 301px;
+            height: 100%;
+        }
+        .box_info {
+            height: calc(100% - var(--subHeader-height-tablet));
+            max-height: var(--bottomBox-height-wide);
+        }
+}
+
+@media (max-width: 767px) and (max-height: 660px) {
+    /*page_2*/
+        #mini_map {
+            width: 100%;
+            height: 100%;
+            max-height: 301px;
+        }
+        .box_info > .container{
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+        }
+        .info {
+            width: 60%;
+        }
+        .info > div:first-child {
+            width: 20%;
+            max-width: 50px;
+        }
+        .info > div:last-child {
+            width: fit-content;
+            min-width: 115px;
+        }
+    /*page_3*/
+        #victorian {
+            display: none;
+        }
+}

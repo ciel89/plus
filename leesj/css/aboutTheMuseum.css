@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*공통 서식*/
+    body {
+        background-color: #faf3eb;
+        color: #766d64;
+    }
+    header > .container > a {
+        color: #766d64;
+    }
+    header > .container > a:hover {
+        color: #222222;
+    }
+    #top_menu > li >b > a {
+        color: #766d64;
+    }
+    #top_menu > li > b > a:hover {
+        color: #222222;
+    }
+/*헤더, 콘텐츠 박스 높이 변수 설정*/
+    :root {
+        --mainHeader-height-desktop: 153px;
+        --mainHeader-height-tablet: 123px;
+        --mainHeader-height-mobile: 93px;
+
+        --subHeader-height-desktop: 146px;
+        --subHeader-height-tablet: 116px;
+        --subHeader-height-mobile: 86px;
+
+        --bottomBox-height-wide: 210px;
+        --bottomBox-height-narrow: 50%;
+        --footer-height-narrow: 40%
+    }
+/*page_1*/
+    .main_header {
+        background-color: #d2c2b2;
+    }
+    /*메인 배너*/
+        .main_banner {
+            background: url(../img/sherlockholmes/gothic_02.JPG) no-repeat center / cover;
+        }
+        main > div {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1320px;
+            height: 100%;
+            margin: 0 auto;
+        }
+        main > div > div {
+            height: 100%;
+            padding: 0 15px;
+        }
+        .text_banner_container {
+            position: relative;
+            width: 60%;
+            max-width: 440px;
+        }
+        .text_banner {
+            width: 100%;
+            max-width: 410px;
+            position: absolute;
+            left: 50%;
+            top: 65%;
+            transform: translate(-50%, -65%);
+        }
+        .text_banner > h1 {
+            color: #d2c2b2;
+        }
+        .text_banner > p{
+            font-size: 18px;
+            font-weight: bold;
+            color: #222222;
+        }
+        .door_container {
+            display: flex;
+            width: fit-content;
+        }
+        .door {
+            width: 90%;
+            max-width: 400px;
+            height: auto;
+            max-height: 650px;
+            margin: auto auto 0 auto;
+        }
+    /*인트로 영상*/
+        #video_container {
+            position: relative;
+            overflow: hidden;
+        }
+        #video_bg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            /*width: 100%;*/
+            min-height: 100%;
+        }
+
+
+
+
+
+/*슬라이드 토글 서브페이지용 색 변경*/
+    @media (max-width: 767px) {
+        /*page_1*/
+            #top_menu {
+                background-color: #d2c2b2;
+                
+            }
+            #top_menu > li {
+                border-bottom: 1px solid #766d64;
+            }
+    }

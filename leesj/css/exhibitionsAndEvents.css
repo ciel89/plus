@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*공통 서식*/
+    body {
+        background-color: #faf3eb;
+        color: #766d64;
+    }
+    header > .container > a {
+        color: #766d64;
+    }
+    header > .container > a:hover {
+        color: #222222;
+    }
+    #top_menu > li >b > a {
+        color: #766d64;
+    }
+    #top_menu > li > b > a:hover {
+        color: #222222;
+    }
+/*page_1*/
+    .main_header {
+        background-color: #d2c2b2;
+    }
+    /*메인 배너*/
+        .main_banner {
+            background: url(../img/sherlockholmes/museum_02.jpg) no-repeat center / cover;
+        }
+        main > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1320px;
+            height: 100%;
+            margin: auto;
+        }
+        main > div > div {
+            width: 30%;
+            height: fit-content;
+            margin: auto;
+            border: 1px red solid;
+        }
+        .title {
+            background-color: #faf3eb;
+            padding: 15px;
+        }
+        
+    /*인트로 영상*/
+        #video_container {
+            position: relative;
+            overflow: hidden;
+        }
+        #video_bg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            /*width: 100%;*/
+            min-height: 100%;
+        }
+
+
+
+
+        
+    @media (max-width: 767px) {
+        /*page_1*/
+            #top_menu {
+                background-color: #d2c2b2;
+                
+            }
+            #top_menu > li {
+                border-bottom: 1px solid #766d64;
+            }
+    }
