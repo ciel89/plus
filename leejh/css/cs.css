@@ -1,6 +1,6 @@
 body{margin: 0px;
          padding: 0px;
-         width: 1450px;}
+         width: 100%;}
 #start{
     color: white;
     font-size: 50px;
@@ -10,74 +10,77 @@ body{margin: 0px;
     top:10px;
     
 }
-main img{width: 1800px;}
-#devil{
-   
-    position: absolute;
-    top:1220px;
-    left: 300px;
-    font-size:20px;
-    color:rgb(138, 137, 137);
-   
-}
-#dark{
-    position: absolute;
-    top:2550px;
-    left: 680px;
-    font-size:20px;
-    color:rgb(138, 137, 137);
+main img{width: 100%;
+         }
 
-}
-#angel{
-    position: absolute;
-    top:3900px;
-    left:420px;
-    font-size:20px;
-    color:rgb(138, 137, 137);
-}
-#watch{
-    position: absolute;
-    top:5200px;
-    left: 440px;
-    font-size:20px;
-    color:rgb(138, 137, 137);
-}
-#blue{position: absolute;
-          top:6580px;
-          left: 630px;
-          font-size:20px;
-          color:rgb(138, 137, 137);
-        }
-    
-#back{position: absolute;
-          top:7900px;
-         left: 670px;
-         font-size:20px;
-         color:rgb(138, 137, 137);
-        }
-   #knight{position: absolute;
-                 top:9250px;
-                 left: 470px;
-                 font-size:20px;
-                 color:rgb(138, 137, 137);
-                   }     
-*{margin: 0px;
-  padding: 0px;}
-main img{
-    margin: 0px;
-                padding: 0px;}
-
+   
 
 /* 추가 css */
 #container{
     position: absolute;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     left:150px;
 }
+
 ul{
     list-style: none;
     font-size : 40px;
+    padding: 0px;
 }
 a{
     text-decoration: none;
     color:white;
+}
+
+
+ /* swiper left, right 버튼 디자인  */
+ .visual .arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    margin-top: -20px;
+    cursor: pointer;
+
+}
+.visual{margin: 0px auto;}
+
+.visual #next{
+    left: 10px;
+}
+.visual #prev{
+    right: 10px;
+}
+
+/* swiper */
+.visual .swiper-container{
+    max-width: 1920px;
+    margin: 0 auto;            
+    position: relative; 
+}
+.visual img{
+    vertical-align: top;
+    width: 100%;  
+}
+
+.swiper-container{
+    width: 100%;
+}    
+
+
+/* swiper 하단 버튼 디자인  */
+.visual .swiper-pagination{
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    z-index: 100;            
+    text-align: center;
+}
+.visual .swiper-pagination .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    opacity: 1;
+}
+.visual .swiper-pagination .swiper-pagination-bullet-active{
+    background: #ff6600;
 }

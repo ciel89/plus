@@ -34,3 +34,54 @@ a:hover{
     
     
 }
+ /* swiper left, right 버튼 디자인  */
+ .visual .arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    margin-top: -20px;
+    cursor: pointer;
+
+    /*font-size: 25px;
+    background: #000;
+    color: #fff;
+    line-height: 1;
+    padding: 10px;
+    border-radius: 5px;*/
+
+}
+.visual #next{
+    left: 10px;
+}
+.visual #prev{
+    right: 10px;
+}
+
+/* swiper */
+.visual .swiper-container{
+    max-width: 1920px;
+    margin: 0 auto;            
+    position: relative; 
+}
+.visual img{
+    vertical-align: top;
+    width: 100%;
+}
+
+/* swiper 하단 버튼 디자인  */
+.visual .swiper-pagination{
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    z-index: 100;            
+    text-align: center;
+}
+.visual .swiper-pagination .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    opacity: 1;
+}
+.visual .swiper-pagination .swiper-pagination-bullet-active{
+    background: #ff6600;
+}
