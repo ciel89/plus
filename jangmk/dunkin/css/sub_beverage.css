@@ -1,0 +1,260 @@
+@charset "UTF-8";
+body{margin: 0;
+    padding: 0;}
+
+/* 상단메뉴 */
+header{position: fixed;
+        width: 100%;
+        height: 155px;
+        z-index: 999;}
+
+#top_banner{background-color: rgb(65, 51, 29);
+            text-align: center;
+            display: none;}
+
+#head{background-color: antiquewhite;
+        height: 100px;}
+
+#header{display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 17px 0px;
+        font-size: 12px;
+        width: 1225px;}
+
+#head ul{display: flex;
+        list-style: none;
+        padding: 0px;}
+
+#head ul li{margin: 12px;}
+
+#head a{color: rgb(124, 123, 69);
+                text-decoration: none;}
+
+#head a:hover{color: rgb(238, 171, 83);}
+
+#head img{margin: 13px;
+        margin-left: -130px;}
+
+#head #su_menu{display: flex;
+                padding-right: 5px;}
+
+#red{color: red;}
+
+
+/* 메인메뉴 */
+#container{background-color: white;}
+.container{ margin: 0px auto; width:1300px; height: 55px;
+        background-color: white;
+        font-size: 14px;
+        font-weight: bold;
+        z-index: 999;}
+
+#login{display: flex;
+        width: 150px;
+        margin: 0; padding: 0;
+        margin-left: 35px;
+        color: rgb(124, 123, 69);}
+
+#login p{padding: 5px 15px;}
+
+ul{ list-style:none; padding: 0px; }
+
+nav a{ text-decoration: none; color:black;}
+
+nav a:hover{ color:rgb(255, 123, 0);}
+
+#menu{margin-left: 267px;
+        margin-top: -51px;}
+
+ul.menu >li{display: inline-block;
+        background-color: rgb(255, 255, 255); width:140px; 
+        text-align: center; margin: -3px;}
+
+.sub li{background-color: rgb(255, 255, 255);}
+
+.sub{position:absolute; 
+        width:140px;}
+
+.sub li{padding: 20px 0px;}
+
+#sub01{width: 170px;}
+
+#imsi{width: 100%; height: 140px;
+        background-color: yellow;
+        padding-top: 140px;}
+
+
+/*배너*/
+#banner{padding-top: 150px;
+        text-align: center;}
+
+
+/*메뉴*/
+section{text-align: center;
+        font-size: 18px;
+        margin-bottom: 150px;}
+
+#line_d{border-bottom: 3px orange solid;
+        padding: 0; margin: 0;}
+
+#line_d p{position: relative;
+        top: 34px; left: 500px;
+        width: 200px;
+        background-color: orange;
+        border: 3px solid orange;
+        border-radius: 20px;
+        color: white;}
+
+.line_b{border-bottom: 3px orange solid;
+        padding: 0; margin-top: 30px;}
+.line_b p{position: relative;
+        top: 34px; left: 525px;
+        width: 150px;
+        background-color: orange;
+        border: 3px solid orange;
+        border-radius: 20px;
+        color: white;}
+        
+.line_n{border-bottom: 3px orange solid;
+        padding: 0; margin-top: 30px;}
+.line_n p{position: relative;
+        top: 34px; left: 525px;
+        width: 150px;
+        background-color: orange;
+        border: 3px solid orange;
+        border-radius: 20px;
+        color: white;}
+
+.more{font-size: 15px;
+        font-weight: bold;
+        margin-top: 50px;}
+
+.more a{text-decoration: none;
+        color: rgb(187, 187, 187);}
+.more a:hover{color: rgb(43, 24, 0);}
+
+
+#bun_left{margin-left: -920px;}
+#co_left{margin-left: -230px;}
+#re_left{margin-left: -690px;}
+
+#new div{display: flex;
+        justify-content: center;
+        margin-top: 50px;}
+
+#new ul{width: 800px;
+        text-align: center;
+        border-radius: 50px;
+        border: 1px solid black;
+        background-color: rgb(55, 35, 25);
+        padding: 10px;}
+
+#new ul li{display: inline;
+            padding-left: 30px;
+            font-weight: bold;}
+
+#new div a{text-decoration: none;
+            color: white;}
+#new div a:hover{color:rgb(255, 123, 0);}
+
+#orange{color: rgb(255, 123, 0);}
+
+#new_s{display: inline-block;
+        width: 1200px;
+        padding-bottom: 50px;}
+.size{font-size: 13px;}
+
+.box{margin: 0px;}
+.box a{text-decoration: none;
+        padding: 8px;
+        border-radius: 30px;
+        font-size: 12px;
+        color: rgb(88, 88, 88);}
+        
+.box a:hover{background-color: rgba(255, 166, 0, 0.719);
+                color: white;}
+.box a img{position: relative;
+           top: 3px;}
+
+.donut_menu{display: flex;
+                justify-content: center;
+                width: 100%;
+                position: relative;}
+
+.donut_menu:last-of-type{padding-bottom: 100px;}
+
+.donut_menu > li > a{display: flex;
+                        justify-content: center;
+                        width: 230px;
+                        overflow: hidden;
+                        border-radius: 45px;}
+
+.donut_menu > li > a > img{width: 90%;
+                        position: relative;
+                        z-index: 100;
+                        top: 22px;}
+
+.bg_text p{position: absolute;
+                top: 55px;
+                left: 100;
+                z-index: 10;
+                width: 160px;
+                padding: 0 20px;
+                color: #000;
+                font-size: 15px;
+                text-align: center;
+                transform: translateY(50px);
+                box-sizing: border-box;}
+
+.bg_text:hover img{transform: translate(0%, 35%);
+                transition-duration: 0.5s;}
+
+.bg_text:hover p{transform: translate(0%,-10%);
+                transition-duration: 0.5s;}
+
+
+
+                        
+/*푸터*/
+
+footer{background-color: antiquewhite;
+        font-size: 13px;
+        margin: 0; padding: 0;
+        padding-top: 20px;}
+
+#footer{display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;}
+
+#footer p{margin: 4px;}
+
+#footer img{margin-left: 5px;
+        margin-bottom: 10px;}
+
+#fo-img{margin-top: 25px;}
+
+footer ul{display: flex;
+        justify-content: center;}
+
+.fo-text{display: flex;
+        width: 420px;}
+
+.fo-text p:nth-of-type(1){padding-right: 30px;}
+#p-ri{padding-left: 75px;}
+
+table{margin-left: 100px;
+        width: 500px; height: 150px;}
+table th{text-align: left;}
+
+form{display: flex;
+        justify-content: center;
+        margin-top: -70px; margin-left: 730px;}
+#link{width: 200px;}
+
+#end{padding: 20px;}
+
+#end ul{margin: 0; padding: 0;
+        border-top: 1px solid rgba(124, 123, 69, 0.432);}
+#end ul li{margin: 10px 24px 0px 0px;}
