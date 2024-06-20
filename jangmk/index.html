@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -13,19 +16,17 @@
             <div id="port">
                 <img id="name" src="images/main_name.png" alt="name">
                 <!--<img id="port_f" src="images/main_po.png" alt="portfolio" width="700px";>-->
-                <img  id="port_f" src="images/main_po.png" alt="#"  width="700px">
+                <img  id="port_f" src="images/main_po05.png" alt="#">
                 <img id="wd" src="images/main_2024_2.png" alt="2024">
             </div>
         </div>
 
     <!--자기소개-->
-        <div class="content">    
-                <div id="banner">
-                    <img src="images/aboutme_15.png" alt="aboutme">
-                </div>
-                <div id="size01"> 
+        <div class="content">
+                <div id="size01">
+                    <!--<img src="images/aboutme_15.png" alt="aboutme">-->
                     <div id="aboutme">
-                        <img id = "me" src="images/pi.png" alt="me" width="500px">
+                        <img id = "me" src="images/dog_me.png" alt="me" width="1200px">
                         <div id="profile">
                             <img src="images/about_profile.png" alt="1" width="170px">
                             <table>
@@ -38,8 +39,8 @@
                                     <td>@jmink_9</td>
                                 </tr>
                             </table>
-                            <img  id="icon_m"src="images/mail.png" alt="mail" width="30px">
-                            <img id="icon_i" src="images/in.png" alt="insta" width="26px">
+                            <img  id="icon_m"src="images/mail.png" alt="mail" width="27px">
+                            <img id="icon_i" src="images/in.png" alt="insta" width="23px">
                         </div>
                         
                         <div id="certificat">
@@ -47,6 +48,7 @@
                             <div class="text_cf">
                                 <p>2024 GTQ 포토샵 1급</p>
                                 <p>자동차 운전면허 2종</p>
+                                <p>인공지능데이터전문가 2급</p>
                             </div>
                         </div>
                         
@@ -54,89 +56,150 @@
                             <img src="images/about_education.png" alt="3" width="220px">
                             <p>멀티미디어 콘텐츠 제작 과정 수료<br>
                             (스마트앱 & WEB 영상)<br>2023.12.29 ~ 2024.06.13</p>
-                        </div>
-                        
+                        </div> 
                         <div id="skill">
                             <img src="images/about_skill.png" alt="4" width="145px">
-                            
-                            <div id="sk6">
-                                <img src="images/about_sk_01.png" alt="4-1" width="110px">
-                                <img src="images/about_sk_02.png" alt="4-2" width="110px">
-                                <img src="images/about_sk_03.png" alt="4-3" width="130px">
-                                <img src="images/about_sk_04.png" alt="4-4" width="110px">
-                                <img src="images/about_sk_05.png" alt="4-5" width="110px">
-                                <img src="images/about_sk_06.png" alt="4-6" width="150px">
-                                <div id="lo">
-                                    <img src="images/IMG_0563.png" alt="4-1-1" width="180px">
-                                    <img src="images/bar.png" alt="#" width="180px">
-                                </div>
+                            <div id="sk_icon"> 
+                                <img src="images/ic.png" alt="#" width="1200px">
                             </div>
-                            <div id="sk_icon">
-                                <img src="images/ps.png" alt="ps" width="30px">
-                                <img src="images/ai.png" alt="pi" width="30px">
-                                <img src="images/html.png" alt="html" width="30px">
-                                <img src="images/js.png" alt="js" width="30px">
-                                <img src="images/js.png" alt="js" width="30px">
-                            </div>
-                    </div>
-                        
+                        </div>    
                     </div>
                 </div>
         </div>
 
     <!--웹-->
         <div class="content">
-            <img src="images/publishing_15.png" alt="publishing"> <!--width="300px"-->
-            <div class="size">
-                <div class="web">
-                    <div class="triangle01"></div>
-                    <div id="web_text">
-                        <h2>던킨도너츠(Re Design)</h2>
-                        <p>제작물<br>메인페이지</p>
-                        <p>기여도<br>개인 작업 100%</p>
-                        <p>작업 툴<br>Photoshop / Visual Studio Code</p>
-                        <p>프로젝트 소개<br>
-                            <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
-                        <div id="box">
-                            <p><a href="">Before</a></p>
-                            <p><a href="">Web</a></p>
-                        </div>
+            <div class="visual">
+                <div class="swiper-container">
+                    <div id="triangle01" class="prev"></div>
+                    <div id="pub_top">
+                        <img id="pub" src="images/publishing_15.png" alt="publishing">
                     </div>
-                    <img id="web_img" src="images/don.png" alt="던킨">
-                    <div class="triangle02"></div>
+                    <div class="swiper-wrapper"  id="web">
+                        <div class="swiper-slide">
+                            <div id="web_text">
+                                <h2>던킨도너츠(Re Design)</h2>
+                                <p>제작물<br>메인페이지</p>
+                                <p>기여도<br>개인 작업 100%</p>
+                                <p>작업 툴<br>Photoshop / Visual Studio Code</p>
+                                <p>프로젝트 소개<br>
+                                    <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
+                                <div id="box">
+                                    <p><a href="https://www.dunkindonuts.co.kr/" target="_blank" >Before</a></p>
+                                    <p><a href="dunkin//index.html" target="_blank" >Re Design</a></p>
+                                </div>
+                            </div>
+                            <a href="#"><img id="web_img" src="images/don.png" alt="HTML"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="web_text">
+                                <h2>던킨도너츠(Re Design)</h2>
+                                <p>제작물<br>메인페이지</p>
+                                <p>기여도<br>개인 작업 100%</p>
+                                <p>작업 툴<br>Photoshop / Visual Studio Code</p>
+                                <p>프로젝트 소개<br>
+                                    <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
+                                <div id="box">
+                                    <p><a href="" target="_blank" >Before</a></p>
+                                    <p><a href="" target="_blank" >Web</a></p>
+                                </div>
+                            </div>
+                            <a href="#"><img  id="web_img" src="images/don.png" alt="CSS"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="web_text">
+                                <h2>던킨도너츠(Re Design)</h2>
+                                <p>제작물<br>메인페이지</p>
+                                <p>기여도<br>개인 작업 100%</p>
+                                <p>작업 툴<br>Photoshop / Visual Studio Code</p>
+                                <p>프로젝트 소개<br>
+                                    <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
+                                <div id="box">
+                                    <p><a href="" target="_blank" >Before</a></p>
+                                    <p><a href="" target="_blank" >Web</a></p>
+                                </div>
+                            </div>
+                            <a href="#"><img   id="web_img" src="images/don.png" alt="Javascript"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="web_text">
+                                <h2>던킨도너츠(Re Design)</h2>
+                                <p>제작물<br>메인페이지</p>
+                                <p>기여도<br>개인 작업 100%</p>
+                                <p>작업 툴<br>Photoshop / Visual Studio Code</p>
+                                <p>프로젝트 소개<br>
+                                    <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
+                                <div id="box">
+                                    <p><a href="" target="_blank" >Before</a></p>
+                                    <p><a href="" target="_blank" >Web</a></p>
+                                </div>
+                            </div>
+                            <a href="#"><img id="web_img" src="images/don.png" alt="jQuery"></a>
+                        </div> 
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div id="triangle02" class="next"></div>
                 </div>
-                <ul class="menu">
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                </ul>
             </div>
         </div>
 
     <!--디자인-->
         <div class="content">
-            <img src="images/design_15.png" alt="design">
-            <div class="size">
-                <div class="web">
-                    <div class="triangle01"></div>
-                    <img src="images/design_img.png" alt="작업물" width="995px" height="435px">
-                    <div class="triangle02"></div>
+            <div class="visual">
+                <div class="swiper-container" id="de_up">
+                    <div id="triangle03" class="prev"></div>
+                    <img id="des" src="images/design_15.png" alt="design">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="des_img">
+                                <div class="des_box">
+                                    <div>
+                                        <a href="images/ma.jpg" onClick="window.open(this.href, '', 'width=500, height=430'); return false;"><img src="images/ma.jpg" width="200px" height="165px"></a>
+                                        <a href="images/port.jpg" onClick="window.open(this.href, '', 'width=400, height=430'); return false;"><img src="images/port.jpg" width="238px"></a>
+                                        <a href="#"><video controls="controls" width="600px">
+                                            <source src="images/dunkin_donut.mp4">
+                                        </video></a>
+                                    </div>
+                                    <a href="images/ma.jpg" onClick="window.open(this.href, '', 'width=500, height=430'); return false;"><img id="top" src="images/ma.jpg" width="200px" height="165px"></a>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                                <a href="#"><img src="images/b.png" width="200px"></a>
+                                <a href="#"><img src="images/c.png" width="200px"></a>
+                                <a href="#"><img src="images/d.png" width="200px"></a>
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                            </div>                    
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                                <a href="#"><img src="images/b.png" width="200px"></a>
+                                <a href="#"><img src="images/c.png" width="200px"></a>
+                                <a href="#"><img src="images/d.png" width="200px"></a>
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                                <a href="#"><img src="images/b.png" width="200px"></a>
+                                <a href="#"><img src="images/c.png" width="200px"></a>
+                                <a href="#"><img src="images/d.png" width="200px"></a>
+                                <a href="#"><img src="images/a.png" width="200px"></a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div id="triangle04" class="next"></div>
                 </div>
-                <ul class="menu">
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                    <li><a href="">.</a></li>
-                </ul>
-            </div class="size">
+
+            </div>
         </div>
+
 
     <!--푸터-->
         <div class="content">
-            <img src="images/contack_15.png" alt="aboutme">
             <div class="size">
                 <img id="star01" src="images/star.png" alt="별">
                 
@@ -146,15 +209,16 @@
                 
                 <div id="contack_ic">
                     <a href="mailto:jmink9@naver.com">
-                        <img src="images/mail.png" width="35px">
+                        <img src="images/mail.png" width="30px">
                     </a>    
-                    <p class="footer">jmink9@naver.com</p>
+                    <a href="mailto:jmink9@naver.com"><p class="footer">jmink9@naver.com</p></a>
+                    <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr"  target="_blank" >
+                        <img src="images/in.png" width="26px">
+                    </a>    
                     <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr">
-                        <img src="images/in.png" width="31px">
-                    </a>    
-                    <p class="footer">@jmink_9</p>
+                        <p class="footer">@jmink_9</p>
+                    </a>
                 </div>
-                
                 <img id="star02" src="images/star.png" alt="별">
             </div>
                 <footer>
