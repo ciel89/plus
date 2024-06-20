@@ -21,3 +21,21 @@ window.onload = function() {
                                     },{passive:false});
     
     }
+
+
+    $(document).ready(function(){
+        var swiper = new Swiper('.swiper-container', {
+
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev',
+            }
+        })
+        
+    })
