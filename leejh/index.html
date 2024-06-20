@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 자료제출</title>
+    <link rel="stylesheet" href="css/cs.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <script src="JS/jquery-3.7.1.min.js"></script>
+	<script src="js/jqurey.js"></script>
+    <script src="js/swiper.min.js"></script>
+    
+    <script>
+        /* 자동실행, left, right버튼 기능 api 추가 */
+        $(document).ready(function(){
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '#next',
+                prevEl: '#prev',
+            }
+        })
+    })
+    </script>
+</head>
+</head>
+<body>
+    <main>
+        <div  id="container">
+        <ul  class="menu">
+            <div class="menu_s"><a href="#">MAIN </a>
+                    <ul  class="sub">
+                        <li><a  href="video.html" target="_blank">  VIDEO  </a></li>
+                        <li><a  href="design.html" target="_blank">  DESIGN  </a></li>                       
+                    </ul>
+            </div>
+        </div>
+        <img src="img/포트폴리오 베인 이미지-1.png" alt="">
+    </main>
+    <header> </header>
+      
+        <div class="visual">
+        <div class="swiper-container">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="#"><img src="img/제출용 기사-1.png"  alt="HTML"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="img/천사-2.png" alt="CSS"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="img/흑백사람-1.png" alt="Javascript"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="img/복잡-1.png" alt="jQuery"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="img/태극기.png" alt="#"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="arrow" id="next"><img src="img/오른쪽-2.png"></div>
+        <div class="arrow" id="prev"><img src="img/왼쪽-2.png"></div>
+        
+    
+            </div>
+        </div>
+   
+
+    
+</body>
+</html>
