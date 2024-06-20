@@ -5,7 +5,8 @@ body{height: 100%;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(32, 28, 34);}
+    background-color: rgb(32, 28, 34);
+    /*background-color: rgb(149, 240, 240);*/}
 
 #wrap{position: relative;
     top:0;
@@ -31,29 +32,35 @@ text-decoration: none;}
 
 #port #name{display:block;
             position: relative;
-            top: 230px;
-            left: 280px;}
+            top: 245px;
+            left: 240px;}
             
-#port #port_f{margin-top: 250px;}
+/*#port #port_f{margin-top: 250px;}*/
+#port #port_f{margin-top: 120px;
+                margin-left: 55px;}
 
 #port #wd{display: block;
         width: 330px;
         position: relative;
-        top: 20px;
-        left: 650px;}
+        top: -130px;
+        left: 720px;}
 
         
 /* about */
+#me{margin-left: -300px;
+margin-top: 20px;}
+
 #about{margin-top: 100px;
         margin-left: 200px;
         display: inline-block;}
         
 #size01{width: 1280px;
-        margin: 90px auto;}
+        margin: 170px auto;
+        font-size: 17px;}
 
 #aboutme{margin-left: -80px;}
         
-#profile{margin-top: -570px;
+#profile{margin-top: -645px;
         margin-left: 700px;}
 
 #profile table{display: flex;}
@@ -63,11 +70,11 @@ text-decoration: none;}
 #profile .text{padding-left: 100px;}
 
 #profile #icon_m{position: relative;
-                top: -57px;
+                top: -52px;
                 left: 400px;}
 #profile #icon_i{position: relative;
-                top: -28px;
-                left: 367px;}
+                top: -26px;
+                left: 370px;}
 
 
 #certificat{margin-top: 0px;
@@ -78,36 +85,43 @@ text-decoration: none;}
 .text_cf{margin-top: -20px;
         margin-left: 105px;}
 
+.text_cf p:nth-of-type(3){margin-top: -15px;}
 
-#education{margin-top: -125px;
+
+#education{margin-top: -145px;
         margin-left: 1000px;}
 
 #education p{margin-left: 105px;
                 margin-top: 0px;
                 width: 350px;}
 
-#skill{margin-top: 0px;
+#skill{margin-top: 40px;
         margin-left: 705px;}
 
-#sk6{width: 140px;
+/*#sk6{width: 140px;
         margin-top: 5px;
-        margin-left: 100px;}
-#lo{margin-top: -195px;
-        margin-left: 200px;}
+        margin-left: 100px;}*/
+/*#lo{margin-top: -195px;
+        margin-left: 200px;}*/
 
-#sk_icon{width: 50px;
+/*#sk_icon{width: 50px;
         margin-top: -195px;
         margin-left: 55px;}
 
-#sk_icon img{padding-top: 5px;}
+#sk_icon img{padding-top: 5px;}*/
+
+#sk_icon{margin-top: -310px;
+        margin-left: -380px;}
 
 
 /* web */
-.web{display: flex;
-        justify-content: center;
-        margin-top: 150px;}
+.visual{margin-top: -200px;}
 
-#web_img{margin-left: 150px;}
+#web{margin-top: -20px;}
+
+#pub_top{margin-top: 50px;}
+#pub{margin-left: 750px;}
+
 #web_text{width: 290px;}
 
 #web_text span{font-size: 14px;}
@@ -126,56 +140,115 @@ text-decoration: none;}
                 color: white;
                 padding: 5px 12px;}
 
-.triangle01{width: 0px;
+#triangle01{width: 0px;
                 height: 0;
                 border-style: solid;
                 border-width: 20px 40px 20px 0;
-                border-color: transparent rgb(133, 255, 255) transparent transparent;
+                border-color: transparent rgb(110, 203, 247) transparent transparent;
                 margin-top: 200px;
-                margin-right: 70px;}
+                position: relative;
+                left: 0px; top: 285px;
+                z-index: 100;}
 
-.triangle02{width: 0px;
+#triangle02{width: 0px;
                 height: 0;
                 border-style: solid;
                 border-width: 20px 0 20px 40px;
-                border-color: transparent transparent transparent rgb(133, 255, 255);
+                border-color: transparent transparent transparent rgb(110, 203, 247);
                 margin-top: 200px;
-                margin-left: 70px;}
+                position: relative;
+                left: 1260px; top: -920px;
+                z-index: 100;}
 
-.menu{display: flex;
-        justify-content: center;
-        list-style: none;
-        margin-left: -30px;}
 
-.menu li{font-size: 100px;
-        margin: 0 10px;}
+.swiper-slide{display: flex;
+                justify-content: space-around;}
+
+
+    /* swiper */
+.visual .swiper-container{max-width: 1300px;
+                        height: 900px;
+                        margin: 0 auto;
+                        position: relative;}
+
+.visual img{vertical-align: top;}
+
+    /* swiper 하단 버튼 디자인  */
+.visual .swiper-pagination{position: absolute;
+                        left: 0; top: 780px;
+                        z-index: 100;            
+                        text-align: center;}
+
+.visual .swiper-pagination .swiper-pagination-bullet{
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        opacity: 1;}
+
+.visual .swiper-pagination .swiper-pagination-bullet-active{
+        background: #ffc0f7;}
+
+
+
+
 
 /* design */
+#des{margin-top: 50px;
+        margin-bottom: 60px;
+        margin-left: 100px;}
+
+#de_up{margin-top: 150px;}
+
+#pub{margin-left: 750px;
+        margin-top: -100px;}
+
+#triangle03{width: 0px;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 40px 20px 0;
+                border-color: transparent rgb(110, 203, 247) transparent transparent;
+                margin-top: 200px;
+                position: relative;
+                left: 0px; top: 370px;
+                z-index: 100;}
+
+#triangle04{width: 0px;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 0 20px 40px;
+                border-color: transparent transparent transparent rgb(110, 203, 247);
+                margin-top: 200px;
+                position: relative;
+                left: 1260px; top: -950px;
+                z-index: 100;}
+
+#top{margin-top: -170px;}
 
 /*footer*/
+.size{margin-top: 170px;}
 #thank{display: flex;
         justify-content: center;
-        margin-top: 90px;}
+        margin-top: 130px;}
 
 #star01{position: relative;
         top: 170px;}
 
 #star02{position: relative;
-        top: 70px;
-        left: 1200px;}
+        top: -150px;
+        left: 1250px;}
 
 #contack_ic{display: flex;
         justify-content: center;
         margin-top: 30px;
-        margin-left: 120px;
-        }
+        margin-left: 270px;
+        margin-bottom: 150px;}
 
 .footer{position: relative;
         top: -11px;
         left: 10px;}
 
 #contack_ic img{margin-left: 40px;
-                margin-top: 5px;}
+                margin-top: 8px;}
 
 /*#box p a{border: 1px white solid;
         border-radius: 7px;
@@ -190,7 +263,6 @@ text-decoration: none;}
                 padding: 5px 12px;}*/
 
 footer{border-top: 1px rgba(228, 228, 228, 0.651) solid;
-        margin-top: 200px;
         font-size: 13px;
         color: rgba(220, 220, 220, 0.486);
         text-align: center;}
