@@ -1,0 +1,143 @@
+@charset "utf-8";
+* {margin: 0px; padding: 0px;}
+li {list-style: none;}
+html{height: 100%;}
+.size{width: 1280px; margin: 0px auto;}
+/*상단 주메뉴*/
+header{position: fixed;
+       height: 120px; width: 1280px;
+       background-color: white;
+       z-index: 999;}
+header a {text-decoration: none; color: #74685c}
+header a:hover{color: brown;}
+.menu{display: flex; text-align: center; 
+      width: 600px; padding: 10px;
+      margin: 0 auto;}
+.menu_s{width: 200px; font-size: 120%;}
+.sub{position: absolute; display: block; 
+     width: 130px; margin-left: 10px;
+     background-color: wheat;}
+       
+/*sns로고*/
+#h_logo{margin-right: 550px; margin-top: -89px;}
+#sns_logo{display: flex; width: 300px; margin: 0 auto;}
+#sns_logo li{margin: 0px 5px;}
+#sns_logo li:nth-of-type(3){margin-top: 5px;}
+/*로고*/
+#logo{text-align: center; padding: 20px;}
+/*서브메뉴*/
+#header_r{margin-left: 920px; margin-top: -30px;}
+.sub_menu{display: flex; width: 300px; margin: 0 auto;}
+.sub_m{width: 110px;}
+.mnu_s{font-size: 85%; width: 300px;}
+
+/*배너: left, right 버튼 디자인*/
+.visual .arrow{position: absolute; 
+               top: 50%;
+               z-index: 100;
+               margin-top: -20px;
+               cursor: pointer;}
+  .visual #next{right: 10px;}
+  .visual #prev{left: 20px;}
+  
+  /*swiper*/
+  .visual .swiper-container{top:120px; margin: 0px auto;            
+                            position: relative;}
+  .visual img{vertical-align: top; width: 100%;}
+  
+  /*swiper 하단 버튼 디자인*/
+  .visual .swiper-pagination{
+      position: absolute;
+      left: 0;
+      bottom: 3%;
+      z-index: 100;            
+      text-align: center;
+  }
+  .visual .swiper-pagination .swiper-pagination-bullet{
+      width: 12px;
+      height: 12px;
+      background: #fff;
+      opacity: 1;
+  }
+  .visual .swiper-pagination .swiper-pagination-bullet-active{
+    background: #ff6600;
+}
+
+
+/*main news*/
+aside{display: block; margin-top: -35px;
+      background-color: #e2d6be; height: 390px;}
+      
+#moms_news{display: flex; margin-top: 155px; margin-left: 35px;
+           padding: 50px 10px; color: #5f5a5a;}
+#NEWS{/*border: 1px  #5f5a5a solid;*/ background-color:white;
+      width: 410px; height: 295px;
+      border-radius: 5px;}
+#NEWS #title{display: flex; padding: 10px; margin-left: 105px;}
+#title p{margin-left: 90px; cursor: pointer;}
+#NEWS1{padding: 10px;}
+#NEWS2{padding: 10px;}
+#NEWS3{padding: 10px;}
+
+/*매장찾기*/
+#shop{display: flex; margin-left: 495px; margin-top: -295px;
+      background-color: beige; width: 440px; height: 170px;}
+#shop h3{margin-top: 20px; margin-left: 105px;}
+#shop p{margin-top: 65px; margin-left: -140px;}
+
+aside #search{margin-top: 130px; margin-left: -185px;}
+aside #search input::placeholder{padding: 10px;}
+aside #search input:nth-of-type(1){background-color: #d8a03c;
+                             border: 1px solid white; 
+                             color: white;
+                             height: 40px;}          
+aside #search input:nth-of-type(2){display: flex; margin-top: -44px; margin-left: 125px;}
+
+/*앱 주문*/
+#app{margin-left: 975px; margin-top: -170px;}
+
+/*할인 쿠폰*/
+article{display: flex;  justify-content: center;
+        background-color: #74685c;  height: 700px;}
+article img{display: flex; margin-top: 55px; margin-left: -27px;}
+article p{text-align: center; margin: 0px auto;
+          padding: 10px; border-radius: 10px;
+          border:  2px solid #d8a03c;  width: 100px; height:20px;
+          color: wheat;
+          cursor: pointer;}
+/*가맹점*/
+section{background-image: url(../image/bg_franchise.2.jpg);
+        background-repeat: no-repeat;
+        height: 355px;}
+section #title{background-color: #d8a03c; 
+               border-radius: 5px;
+               padding: 10px;
+               display: inline-block; margin-top: 230px;
+               margin-left: 575px;}
+#title p {margin: 0px auto;}             
+#title p a {text-decoration: none; color: white;}
+/*메뉴사진*/
+figure{height: 40px;}
+figure #bgi_sns{width: 100%;}
+#menu_i{margin-top: -210px;
+        text-align: center;}
+/*푸터*/
+footer{text-align: center; color: white;
+       background-color: #74685c; height: 300px; margin-top: 174px;}
+footer a{text-decoration: none; color: white;}
+footer hr{width: 1200px; border-color: white;}
+.etc ul{display: flex; justify-content: center;}
+.customer{display: flex; justify-content: center;}
+.customer div:nth-of-type(1){display: flex; justify-content: center;}
+.customer div:nth-of-type(2){display: flex; justify-content: center;}
+.info ul:nth-of-type(1){display: flex; justify-content: center;}
+.info ul:nth-of-type(3){display: flex; justify-content: center;}
+
+#sns ul{display: flex; justify-content: center; margin: 15px;}
+#sns li{margin: 0px 10px;}
+#sns li:nth-of-type(3){margin-top: 5px;}
+.inner:nth-of-type(1){display: inline-block; margin-top: 40px;}
+.etc li{margin: 10px 15px;}
+.customer div{margin: 10px 15px;}
+.info{margin: 5px 15px;}
+.copyright{font-size: 12px;}
