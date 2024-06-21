@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* 공통사항 */
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 1800px;
+}
+
+
+/* header */
+header{
+    width: 1800px;
+    /* border: 1px red solid; */
+}
+
+#wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#wrap p{
+    margin-left: 25px;
+}
+
+#top_nav{
+    display: flex;
+    width: 1650px;
+    background-color: rgb(0, 0, 160);
+    padding: 0px;
+}
+
+#top_nav ul:nth-of-type(2){
+    margin-left: 300px;
+}
+
+#top_nav ul li{
+    margin: 0px 10px;
+    color: white;
+}
+
+#sns{
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+header ul{
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+
+#wrap2{
+    text-align: center;
+}
+
+#wrap2 img{
+    margin-top: 30px;
+}
+
+#wrap2 div:nth-of-type(2){
+    margin-left: 380px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#wrap2 ul li{
+    margin: 0px 40px;   
+}
+
+
+/* banner */
+figure{
+    width: 1800px;
+    margin: 0px;
+    
+}
+
+figure img{
+    width: 1800px;
+    margin: 0px;
+}
+
+
+
+
+
+
+/* product */
+main{
+    margin: 0px;
+    width: 1800px;
+    height: 600px;
+    background-image: url(../images/main_beanist_bg.gif);
+    background-size: 1800px 600px;
+    text-align: center;
+    font-size: 45px;
+}
+
+main div:nth-of-type(1){
+    padding-top: 50px;
+}
+
+main div p{
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+main div:nth-of-type(1) p:nth-of-type(1){
+    color: rgba(119, 70, 30, 0.993);
+}
+
+main div:nth-of-type(1) p:nth-of-type(2){
+    color: rgb(49, 49, 49);
+}
+
+main hr{
+    margin-top: 50px;
+    border: 1px black solid;
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+#product{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-left: 300px;
+}
+
+#product div{
+    width: 300px;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+#product img{
+    width: 150px;
+    margin: 0px;
+}
+
+#product div p{
+    margin: 0px;
+}
+
+#product div p:nth-of-type(1){
+    font-size: 20px;
+    color: rgba(119, 70, 30, 0.993);
+    margin-bottom: 0px;
+}
+
+#product div p:nth-of-type(2){
+    font-size: 15px;
+    color: rgba(119, 70, 30, 0.993);
+}
+
+
+
+
+
+/* dream Factory */
+section{
+    width: 1800px;
+    height: 450px;
+    background-image: url(../images/dream_factory_bg.gif);
+    background-size: 1800px 450px;
+}
+
+section img:nth-of-type(1){
+    position: absolute;
+    left: 900px;
+    top: 1455px;
+}
+
+section img:nth-of-type(2){
+    position: relative;
+    left: 380px;
+    top: 80px;
+}
+
+section div{
+    position: relative;
+    left: 190px;
+    top: 50px;
+    color: white;
+}
+
+#n b{
+    font-size: 30px;
+}
+
+#btn{
+    display: flex;
+}
+
+.btn{
+    width: 150px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px white solid;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Brand */
+article{
+    margin: 0px;
+    padding: 0px;
+    width: 1800px;
+    height: 450px;
+    background-image: url(../images/block02_bg.jpg);
+    background-size: 1800px 450px;
+    text-align: center;
+}
+
+article div{
+    position: relative;
+    color: white;
+    margin: 0px;
+    padding-top: 100px;
+}
+
+article div p{
+    margin: 0px;
+}
+
+article div p:nth-of-type(1){
+    font-size: 40px;
+}
+article div p:nth-of-type(2){
+    font-size: 20px;
+}
+
+article div .btn{
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+article hr{
+    margin-top: 50px;
+    border: 1px white solid;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* Compnay */
+aside{
+    margin: 0px;
+    width: 1800px;
+    height: 450px;
+    background-image: url(../images/company_bg.jpg);
+    background-size: 1800px 450px;
+}
+
+aside div{
+    position: relative;
+    left: 430px;
+    top: 50px;
+    color: white;
+}
+
+#c p:nth-of-type(1){
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+#btn{
+    display: flex;
+}
+
+.btn{
+    width: 150px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px white solid;
+    text-align: center;
+}
+
+
+
+
+/* News */
+#News{
+    margin: 0px;
+    width: 1800px;
+    height: 450px;
+    background-color: lightgray;
+}
+
+#News_a{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 70px;
+}
+
+#News_a div{
+    margin-right: 15px;
+}
+
+#N_a{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/main_franchise_bg.jpg);
+    color: white;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+#N_a hr{
+    width: 50px;
+    margin-right: 250px;
+}
+
+#N_b{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/main_store_bg.jpg);
+    color: white;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#N_b hr{
+    width: 50px;
+    margin-right: 250px;
+}
+
+#find{
+    width: 200px;
+    height: 30px;
+    border: 3px white solid;
+}
+
+#news p, table{
+    margin: 0px;
+}
+
+table th{
+    text-align: left;
+    font-size: 20px;
+}
+table td{
+    font-size: 15px;
+}
+
+#N_c div:nth-of-type(2){
+    background-color:rgb(201, 188, 171);
+    color: white;
+    margin-top: 65px;
+    height: 130px ;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+
+/* footer */
+footer{
+    margin: 0px;
+    width: 1800px;
+    height: 300px;
+    background-color: rgb(31, 31, 31);
+    /* border: 1px red solid; */
+}
+
+#f_nav{
+    display: flex;
+    padding-left: 590px;
+    padding-top: 20px;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 1px gray solid;
+    height: 40px;
+}
+
+#f_nav p{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 20px;
+    color: gray;
+}
+
+#lang{
+    width: 150px;
+    height: 25px;
+}
+
+#f_info{
+    color: gray;
+}
+
+
+#f_info div:nth-of-type(1){
+    text-align: center;
+}
+
+#f_logo{
+    font-size: 30px;
+}
+
+#f_info div:nth-of-type(1) div p{
+    font-size: 13px;
+}
+
+
+#f_info div:nth-of-type(2){
+    position: absolute;
+    left: 1365px;
+    top: 3250px;
+}
