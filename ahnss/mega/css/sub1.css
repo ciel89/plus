@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+figure{
+    width: 100%;
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+
+figure ul{
+    display: flex;
+    justify-content: center;
+}
+
+#BRAND{
+    background-color: rgb(31, 31, 31);
+    background-image: url(../images/main_mega_w.jpg);
+    background-position:center;
+    width: 100%;
+    padding: 110px 0px;
+}
+
+main{
+    width: 100%;
+    margin: 0px;
+    
+}
+
+#DAILY{
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+#slogan{
+    background-color: rgb(255, 209, 60);
+}
+
+#key_word{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#key_word div{
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 0px 20px;
+    width: 280px;
+    
+}
+
+#CONCEPT{
+    display: flex;
+    width: 80%;
+    margin: 0px 10%;
+    margin-top: 100px;
+}
+
+#CONCEPT_info{
+    width: 50%;
+}
+
+#CONCEPT_info div{
+    margin-top: 300px;
+    margin-right: 5%;
+}
+
+#CONCEPT_info img{
+    width: 30%;
+}
+
+#CONCEPT_info div h1:nth-of-type(2){
+    display: none;
+}
+
+#img{
+    width: 50%;
+}
+
+#img img{
+    width: 100%;
+}
